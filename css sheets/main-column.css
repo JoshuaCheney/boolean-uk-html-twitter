@@ -48,6 +48,9 @@ textarea {
 
 .main-header {
     border-bottom: 2px solid rgba(211, 211, 211, 0.746);
+    position: -webkit-sticky;
+    position: sticky; top: 0;
+    background-color: white;
 }
 
 .border-gap {
