@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/css sheets/left-side.css">
+    <link rel="stylesheet" href="/css sheets/main-column.css">
     <title>Document</title>
 </head>
-<body class="three-column-grid">
+<body class="center three-column-grid">
     <div class="left-columm">
-        <div class="two-column-grid">
-            <div class="empty-space">
-            </div>
-            <nav>
+        <div class="two-column-left-grid">
+            <nav class="">
                 <ul>
                     <li class="nav-li">
                         <img class="nav-img" src="https://image.flaticon.com/icons/png/512/733/733579.png" alt="Twitter Logo">
@@ -63,36 +62,291 @@
                     </a>
                 </div>
             </nav>
+            <div class="empty-space">
+            </div>
         </div>
     </div>
-    <div class="main-column">
-        <header>
-            <div class="two-column-grid__expand-1">
+    <main class="main-column">
+        <header class="main-header">
+            <div class="two-column-grid__expand-one border-gap">
                 <h1>Home</h1>
                 <a href="">
                     <img class="header-img" src="https://image.flaticon.com/icons/png/512/599/599887.png" alt="Star SVG">
                 </a>
             </div>
-            <form class="2-column-grid" action="">
+            <form class="header-two-column-grid" action="tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
                 <div>
-                    <img src="" alt="Profile Picture">
-                </div>
-                <div>
-                    <textarea name="" id="" cols="30" rows="3" placeholder="What's happening?"></textarea>
-                    <div class="2column-grid__expand-one">
+                    <textarea name="" id="" cols="54" rows="3" placeholder="What's happening?"></textarea>
+                    <div class="two-column-grid__expand-one">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="inline"><button class="form-but-gap"><img class="form-img" src="https://image.flaticon.com/icons/png/512/739/739249.png" alt="Picture"></button></li>
+                            <li class="inline"><button class="form-but-gap"><img class="form-img" src="https://image.flaticon.com/icons/png/512/1373/1373418.png" alt="Gif"></button></li>
+                            <li class="inline"><button class="form-but-gap"><img class="form-img" src="https://image.flaticon.com/icons/png/512/1246/1246239.png" alt="Poll"></button></li>
+                            <li class="inline"><button class="form-but-gap"><img class="form-img" src="https://image.flaticon.com/icons/png/512/569/569501.png" alt="Emoji"></button></li>
+                            <li class="inline"><button class="form-but-gap"><img class="form-img" src="https://image.flaticon.com/icons/png/512/956/956926.png" alt="Event"></button></li>
                         </ul>
-                        <input type="submit" value="Tweet">
+                        <input class="tweet" type="submit" value="Tweet">
                     </div>
                 </div>
             </form>
         </header>
+        <div class="gap"></div>
+        <div class="tweet-border">
+            <div class="two-column-grid__expand-one-tweet">
+                <img class="retweet-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="retweet">
+                <p class="retweet-text">Eric Elliott Retweeted</p>
+            </div>
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Ewoki GITer of COINs</h3>
+                    <a class="inline retweet-text" href="">@owocki</a>
+                    <p class="inline retweet-text">26m</p>
+                    <p>me as an engineer, 2015: the CEOs vision is so hand-wavey
+                        <br>
+                        <br>
+                        <p>me as a CEO, 2021: (waves hand) this is my vision</p>
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+        <div class="tweet-border">
+            <div class="three-column-grid-tweet">
+                <a href="">
+                    <img class="main-profile-img" src="https://image.flaticon.com/icons/png/512/599/599305.png" alt="Profile Picture">
+                </a>
+                <div class="tweet-mid">
+                    <h3 class="inline">Random User</h3>
+                    <a class="inline retweet-text" href="">@random</a>
+                    <p class="inline retweet-text">40m</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, itaque earum alias tempora soluta consequuntur odit, nulla ratione ipsum illum voluptatibus dignissimos perspiciatis aliquid aut quis. Omnis, blanditiis illo!
+                    </p>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1450/1450338.png" alt="Reply"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1388/1388997.png" alt="Retweet"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="Like"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3580/3580382.png" alt="Share"></button>
+                    <button class="tweet-button-gap"><img class="tweet-button-img" src="https://image.flaticon.com/icons/png/512/3612/3612577.png" alt="Tip"></button>
+                </div>
+                <button class="tweet-menu-button"><img class="tweet-menu-img" src="https://image.flaticon.com/icons/png/512/512/512142.png" alt="Menu"></button>
+            </div>
+        </div>
+    </main>
+    <div class="right-column-grid">
+        <div></div>
+        <div>
+            <header class="search-bar">
+                <form action="search">
+                    <button class="search-button">
+                        <img class="search-bar-img" src="https://image.flaticon.com/icons/png/512/622/622669.png" alt="search">
+                    </button>
+                    <input class="search-box" type="text" placeholder="Search Twitter">
+                </form>
+            </header>
+            <section class="article-box article-center">
+                <header>
+                    <h2 class="article-header">What's happening</h2>
+                </header>
+                <article class="article-box-2-column-grid">
+                    <div>
+                        <a href="">News - LIVE</a>
+                        <h4>Bus hijacked by protesters and set alight on sixth night of unrest in Northern Ireland</h3>
+                        <p>Trending with <a href="">Belfast</a>, <a href="">Northern Ireland</a></p>
+                    </div>
+                    <img class="article-img" src="https://image.flaticon.com/icons/png/512/3122/3122349.png" alt="Protest image">
+                </article>
+            </section>
+        </div>
     </div>
-    <div class="right-coulmn"></div>
 </body>
 </html>

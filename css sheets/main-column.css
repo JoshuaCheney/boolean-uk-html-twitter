@@ -1,0 +1,128 @@
+
+.header-img {
+    width: 25px;
+    height: auto;
+}
+
+.header-two-column-grid {
+    display: grid;
+    grid-template-columns: 80px auto;
+    margin-top: 1rem;
+}
+
+.main-profile-img {
+    width: 65px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 1rem;
+}
+
+.form-img {
+    width: 25px;
+    height: auto;
+}
+
+.tweet {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(55, 136, 212);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+
+.form-but-gap {
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+}
+
+textarea {
+    border: none;
+    font-size: 2.5ch;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.main-header {
+    border-bottom: 2px solid rgba(211, 211, 211, 0.746);
+}
+
+.border-gap {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.746);
+}
+
+.gap {
+    height: 25px;
+    width: auto;
+    background-color: rgba(238, 238, 238, 0.822);
+}
+.retweet-img {
+    width: 20px;
+    height: auto;
+    justify-self: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tweet-button-img {
+    width: 25px;
+    height: auto;
+}
+
+.two-column-grid__expand-one-tweet {
+    display: grid;
+    grid-template-columns: 80px auto;
+    margin-top: 1rem;
+}
+
+.three-column-grid-tweet {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    margin-top: 1rem;
+}
+
+.three-column-grid-tweet :first-child {
+    margin-top: 0;
+}
+
+.retweet-text {
+    color: grey;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.tweet-button-gap {
+    margin-top: 10px;
+    margin-right: 80px;
+    border: none;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.tweet-mid {
+    margin-left: 10px;
+}
+
+.tweet-menu-img {
+    width: 20px;
+    height: auto;
+}
+
+.tweet-menu-button {
+    width: auto;
+    height: 20px;
+    border: none;
+    background-color: white;
+    margin-right: 1rem;
+}
+
+.tweet-border {
+    border-top: 2px solid rgba(211, 211, 211, 0.746);
+}

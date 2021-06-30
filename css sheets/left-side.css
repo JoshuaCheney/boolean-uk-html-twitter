@@ -1,4 +1,6 @@
-
+nav {
+    max-width: 260px;
+}
 .nav-img {
     width: 30px;
     height: auto;
@@ -6,10 +8,11 @@
 }
 
 .nav-li {
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
 .inline {
-    display: inline-block;;
+    display: inline-block;
 }
 
 h2 {
@@ -27,6 +30,8 @@ h2 {
     font-size: 2ch;
     margin-top: 10px;
     margin-bottom:100px;
+    margin-top: 3rem;
+    border: none;
 }
 
 .profile-img {
@@ -54,4 +59,8 @@ h2 {
     font-size: 1.9ch;
     margin-left: 1rem;
     margin-top: 0.4rem;
+}
+
+.nav-li :first-child {
+    margin-top: 1.5rem;
 }
